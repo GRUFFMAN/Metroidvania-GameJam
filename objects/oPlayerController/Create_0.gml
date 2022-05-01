@@ -1,9 +1,9 @@
 class = 0; //id of the class of this character
 
-rightSprite = sCharacterMageRight; //replace these with whatever sprites your specific class uses
-upSprite = sCharacterMageUp;
-leftSprite = sCharacterMageLeft;
-downSprite = sCharacterMageDown;
+rightSprite = sCharacterMonkeyRight; //replace these with whatever sprites your specific class uses
+upSprite = sCharacterMonkeyUp;
+leftSprite = sCharacterMonkeyLeft;
+downSprite = sCharacterMonkeyDown;
 
 pDirection = 270; //direction player is facing.
 facing = 3 //cardinal direction player is facing, used for sprite handling // 0 = right, 1 = up, 2 = left, 3 = down 

@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "character_sprites",
-    "path": "folders/Sprites/character_sprites.yy",
+    "name": "CharacterMage",
+    "path": "folders/Sprites/character_sprites/CharacterMage.yy",
   },
   "resourceVersion": "1.0",
   "name": "sCharacterMageUp",
