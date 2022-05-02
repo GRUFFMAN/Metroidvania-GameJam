@@ -1,3 +1,4 @@
+/////////////////TEMPLATE CODE//////////////////////////
 if (keyboard_check(KEYRIGHT) && !keyboard_check(KEYLEFT)) //if right pressed or left released
 {
 	if (!collision_point(x + 8 + walkSpeed, y, oBlock, false, true)) chSpeed = walkSpeed; //horizontal movement is increases
@@ -43,3 +44,4 @@ if mouse_check_button(mb_left)
 		fireCoolDown = 90 div fireRate;
 	}
 }
+/////////////////TEMPLATE CODE//////////////////////////

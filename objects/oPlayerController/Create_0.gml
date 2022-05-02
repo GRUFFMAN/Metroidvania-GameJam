@@ -1,8 +1,7 @@
+/////////////////TEMPLATE CODE//////////////////////////
 class = 0; //id of the class of this character
 clippingID = 0; //entities collide with projectiles with different clipping IDs. All player characters should have this variable set to 0
 
-<<<<<<< Updated upstream
-=======
 hp = 12;
 
 immunityFrames = 0; //if this is more than 0, this entity can take no damage
@@ -15,7 +14,6 @@ elDamageBonus[3] = 0;
 elDamageBonus[4] = 0
 elDamageBonus[5] = 0; //default / no element, etc. Should have made this one 0 but I added it in after so whatever
 
->>>>>>> Stashed changes
 rightSprite = sCharacterMageRight; //replace these with whatever sprites your specific class uses
 upSprite = sCharacterMageUp;
 leftSprite = sCharacterMageLeft;
@@ -45,3 +43,4 @@ KEYRIGHT = ord("D"); //input variables for controls. This makes them easily chan
 KEYUP = ord("W");
 KEYLEFT = ord("A");
 KEYDOWN = ord("S");
+/////////////////TEMPLATE CODE//////////////////////////

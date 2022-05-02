@@ -1,3 +1,4 @@
+/////////////////TEMPLATE CODE//////////////////////////
 image_speed = get_hypotenuse(chSpeed, cvSpeed) / walkSpeed; //makes the sprite animate faster or slower depending on movement speed
 
 var dir; //temp veriable that is removed from memory after this script is finished running.
@@ -28,3 +29,5 @@ switch(facing)
 		sprite_index = downSprite; //face the sprite down if facing right
 	} break;
 }
+
+/////////////////TEMPLATE CODE//////////////////////////

@@ -1,3 +1,4 @@
+/////////////////TEMPLATE CODE//////////////////////////
 switch(facing)
 {
 	case 0: //right
@@ -28,3 +29,4 @@ switch(facing)
 }
 
 if (immunityFrames > 0) immunityFrames -= 1;
+/////////////////TEMPLATE CODE//////////////////////////
