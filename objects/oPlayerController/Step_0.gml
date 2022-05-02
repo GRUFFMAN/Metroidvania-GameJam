@@ -39,7 +39,7 @@ if mouse_check_button(mb_left)
 {
 	if (fireCoolDown = 0)
 	{
-		fire_bullet(x, y, 0, projectileSpeed, pDirection, projectileRange);	
+		fire_bullet(bulletSpawnx, bulletSpawny, oPlayerBullet, projectileSpeed, pDirection, projectileRange, attackDam, attackElement, 0);	
 		fireCoolDown = 90 div fireRate;
 	}
 }
