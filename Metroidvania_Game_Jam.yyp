@@ -1,19 +1,37 @@
 {
   "resources": [
+    {"id":{"name":"sSmallWave","path":"sprites/sSmallWave/sSmallWave.yy",},"order":1,},
+    {"id":{"name":"sSMBFrameHealthy","path":"sprites/sSMBFrameHealthy/sSMBFrameHealthy.yy",},"order":0,},
+    {"id":{"name":"sBloodSplatter","path":"sprites/sBloodSplatter/sBloodSplatter.yy",},"order":0,},
+    {"id":{"name":"oSpiderMiniBoss","path":"objects/oSpiderMiniBoss/oSpiderMiniBoss.yy",},"order":0,},
     {"id":{"name":"oEnemyBullet","path":"objects/oEnemyBullet/oEnemyBullet.yy",},"order":1,},
     {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},"order":2,},
     {"id":{"name":"sIceBullet","path":"sprites/sIceBullet/sIceBullet.yy",},"order":0,},
+    {"id":{"name":"oBloodSplatter","path":"objects/oBloodSplatter/oBloodSplatter.yy",},"order":0,},
+    {"id":{"name":"sSMBFrameDamaged","path":"sprites/sSMBFrameDamaged/sSMBFrameDamaged.yy",},"order":1,},
     {"id":{"name":"sCharacterMageRight","path":"sprites/sCharacterMageRight/sCharacterMageRight.yy",},"order":2,},
+    {"id":{"name":"sLargeWave","path":"sprites/sLargeWave/sLargeWave.yy",},"order":4,},
     {"id":{"name":"bullet_scripts","path":"scripts/bullet_scripts/bullet_scripts.yy",},"order":1,},
     {"id":{"name":"sCharacterMageUp","path":"sprites/sCharacterMageUp/sCharacterMageUp.yy",},"order":3,},
+    {"id":{"name":"oBomb","path":"objects/oBomb/oBomb.yy",},"order":3,},
     {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},"order":1,},
+    {"id":{"name":"sSMBFrameSeverelyDamaged","path":"sprites/sSMBFrameSeverelyDamaged/sSMBFrameSeverelyDamaged.yy",},"order":2,},
     {"id":{"name":"oPlayerController","path":"objects/oPlayerController/oPlayerController.yy",},"order":0,},
+    {"id":{"name":"oSmallWave","path":"objects/oSmallWave/oSmallWave.yy",},"order":2,},
+    {"id":{"name":"oLargeWave","path":"objects/oLargeWave/oLargeWave.yy",},"order":4,},
+    {"id":{"name":"sBombShadow","path":"sprites/sBombShadow/sBombShadow.yy",},"order":3,},
+    {"id":{"name":"sSMBflash","path":"sprites/sSMBflash/sSMBflash.yy",},"order":4,},
     {"id":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"order":0,},
     {"id":{"name":"sCharacterMageDown","path":"sprites/sCharacterMageDown/sCharacterMageDown.yy",},"order":0,},
+    {"id":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},"order":2,},
     {"id":{"name":"oPlayerBullet","path":"objects/oPlayerBullet/oPlayerBullet.yy",},"order":0,},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":0,},
     {"id":{"name":"Maths_functions","path":"scripts/Maths_functions/Maths_functions.yy",},"order":0,},
     {"id":{"name":"sCharacterMageLeft","path":"sprites/sCharacterMageLeft/sCharacterMageLeft.yy",},"order":1,},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"sSMBLegs","path":"sprites/sSMBLegs/sSMBLegs.yy",},"order":3,},
+>>>>>>> Stashed changes
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -58,6 +76,15 @@
     {"folderPath":"folders/Sprites/projectiles.yy","order":5,"resourceVersion":"1.0","name":"projectiles","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/projectiles.yy","order":3,"resourceVersion":"1.0","name":"projectiles","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/system.yy","order":6,"resourceVersion":"1.0","name":"system","tags":[],"resourceType":"GMFolder",},
+<<<<<<< Updated upstream
+=======
+    {"folderPath":"folders/Sprites/enemy_sprites.yy","order":7,"resourceVersion":"1.0","name":"enemy_sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/enemy_sprites/cyborg_spider.yy","order":1,"resourceVersion":"1.0","name":"cyborg_spider","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemeis.yy","order":4,"resourceVersion":"1.0","name":"Enemeis","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemeis/Mini_Bosses.yy","order":1,"resourceVersion":"1.0","name":"Mini_Bosses","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Effects.yy","order":8,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Effects.yy","order":5,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
+>>>>>>> Stashed changes
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

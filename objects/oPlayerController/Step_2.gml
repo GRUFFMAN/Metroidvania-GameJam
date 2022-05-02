@@ -4,7 +4,7 @@ var dir; //temp veriable that is removed from memory after this script is finish
 
 pDirection = point_direction(x, y, mouse_x, mouse_y); //find the angle between the player character and the mouse
 
-facing = (pDirection + 45) div 90;
+facing = ((pDirection + 45 ) mod 360) div 90;
 
 switch(facing)
 {

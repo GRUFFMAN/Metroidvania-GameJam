@@ -1,1 +1,1 @@
-instance_destroy();
+if(height = other.height) instance_destroy();
