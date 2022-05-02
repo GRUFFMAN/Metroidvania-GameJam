@@ -2,7 +2,10 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sCharacterMageDown",
+    "path": "sprites/sCharacterMageDown/sCharacterMageDown.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oEntity",

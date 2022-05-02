@@ -1,7 +1,7 @@
 /////////////////TEMPLATE CODE//////////////////////////
 if (keyboard_check(KEYRIGHT) && !keyboard_check(KEYLEFT)) //if right pressed or left released
 {
-	if (!collision_point(x + 8 + walkSpeed, y, oBlock, false, true)) chSpeed = walkSpeed; //horizontal movement is increases
+	if (!collision_point(x + 8 + walkSpeed, y, oBlock, false, true)) chSpeed = walkSpeed; //horizontal movement is increased
 	else chSpeed = 0;
 }
 else if (keyboard_check(KEYLEFT) && !keyboard_check(KEYRIGHT)) //if left pressed or right released
@@ -13,8 +13,6 @@ else
 {
 	chSpeed = 0;	
 }
-
-
 
 if (keyboard_check(KEYDOWN) && !keyboard_check(KEYUP)) //same as above but with vetrical movement
 {
@@ -34,14 +32,14 @@ else
 x += chSpeed; //change x by hspeed
 y += cvSpeed; //change y by vspeed
 
-if (fireCoolDown > 0) fireCoolDown -= 1;
+if (fireCoolDown > 0) fireCoolDown -= 1; //if we have the cooldown timer on, tick it down
 
 if mouse_check_button(mb_left)
 {
-	if (fireCoolDown = 0)
+	if (fireCoolDown = 0) //if we are not cooling down
 	{
 		fire_bullet(bulletSpawnx, bulletSpawny, oPlayerBullet, projectileSpeed, pDirection, projectileRange, attackDam, attackElement, 0);	
-		fireCoolDown = 90 div fireRate;
+		fireCoolDown = 90 div fireRate; //set cooldown timer according to fireRate
 	}
 }
 /////////////////TEMPLATE CODE//////////////////////////

@@ -8,7 +8,7 @@ immunityFrames = 0; //if this is more than 0, this entity can take no damage
 immunityTime = 5; //how many frames of immunity this entity gets on hit.
 
 elDamageBonus[0] = -2; //these values are added to the damage received from specific elements. a negative number is a resitence
-elDamageBonus[1] =  +2;
+elDamageBonus[1] =  2;
 elDamageBonus[2] = 0;
 elDamageBonus[3] = 0;
 elDamageBonus[4] = 0
@@ -24,8 +24,8 @@ facing = 3 //cardinal direction player is facing, used for sprite handling // 0 
 
 sprite_index = downSprite; //sprite_index is an in-built game maker variable that you can use to make this game object draw whatever sprite easily. Look in the draw function for more
 
-walkSpeed = 0.8; //pixels per frame.
-runSpeed = 1.4;
+walkSpeed = 1.2; //pixels per frame.
+runSpeed = 1.8;
 chSpeed = 0; //current horizontal speed
 cvSpeed = 0; //current vertical speed
 
@@ -34,7 +34,7 @@ bulletSpawny = y;
 
 attackDam = 5; //a number from 1 to 10. probably balance high damage with low fire rate / projectile speed, etc
 attackElement = 2; //fire, water, ice, lightning, bio //starts at 0 not 1
-fireRate = 5; //fire rate is measure in amount of shots fired in 1.5 seconds (90 frames)
+fireRate = 5; //fire rate is measured in amount of shots fired in 1.5 seconds (90 frames)
 projectileSpeed = 3; // speed at which bullets move
 projectileRange = 120;
 fireCoolDown = 0; //used to determine if player can currently fire;

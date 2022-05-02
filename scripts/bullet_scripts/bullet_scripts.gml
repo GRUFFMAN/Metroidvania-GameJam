@@ -14,6 +14,20 @@ a = instance_create_layer(xx, yy, "Bullet_Layer", kind);
 	a.clippingID = clipping; // 0 = this projectile collides with enemies, 1 with players
 }
 
+function fire_bullet_top(xx, yy, kind, spd, dir, l, dam, element, clipping)
+{
+	var a;
+	
+a = instance_create_layer(xx, yy, "Bullet_Top_Layer", kind);
+	
+	a.speed = spd;
+	a.direction = dir;
+	a.life = l;
+	a.dam = dam;
+	a.element = element;
+	a.clippingID = clipping; // 0 = this projectile collides with enemies, 1 with players
+}
+
 function bullet_damage(colID, selfID) //function to be run inside projectile parented objects only. colID should be the id of an entity parented object
 {
 	if (colID.immunityFrames > 0) 

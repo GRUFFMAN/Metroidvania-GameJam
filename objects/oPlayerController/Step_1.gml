@@ -1,5 +1,5 @@
 /////////////////TEMPLATE CODE//////////////////////////
-switch(facing)
+switch(facing) //changes the location of the bulletspawn locations depending on the direction the player is facing.
 {
 	case 0: //right
 	{
