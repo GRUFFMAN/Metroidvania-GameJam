@@ -32,9 +32,9 @@ cvSpeed = 0; //current vertical speed
 bulletSpawnx = x; //x and y positions this entity spawns bullets from
 bulletSpawny = y;
 
-attackDam = 5; //a number from 1 to 10. probably balance high damage with low fire rate / projectile speed, etc
-attackElement = 2; //fire, water, ice, lightning, bio //starts at 0 not 1
-fireRate = 5; //fire rate is measured in amount of shots fired in 1.5 seconds (90 frames)
+attackDam = 50; //a number from 1 to 10. probably balance high damage with low fire rate / projectile speed, etc
+attackElement = ICE; //fire, water, ice, lightning, bio //starts at 0 not 1
+fireRate = 8; //fire rate is measured in amount of shots fired in 1.5 seconds (90 frames)
 projectileSpeed = 3; // speed at which bullets move
 projectileRange = 120;
 fireCoolDown = 0; //used to determine if player can currently fire;

@@ -1,8 +1,5 @@
 switch(pattern)
 {
-	case 0:
-	{
-	} break;
 	case 1:
 	{
 		alarm[2] = 7;

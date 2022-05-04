@@ -1,8 +1,8 @@
 instance_destroy();
 var spedo;
-spedo = 0.2;
-repeat(16)
+spedo = 0.3;
+repeat(10)
 {
 	fire_bullet(x, y, oPinkShot, spedo, 180, 30, 6, BIO, 1);
-	spedo += 0.2
+	spedo += 0.3
 }

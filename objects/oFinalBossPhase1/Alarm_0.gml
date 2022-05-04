@@ -15,11 +15,11 @@ switch(pattern)
 	case 1:
 	{
 		alarm[0] = 6;
-		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.8, patternDir + irandom(5), 0, 8, BIO, 1);
-		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.8, patternDir + 72 + irandom(5), 0, 8, BIO, 1);
-		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.8, patternDir + 144 + irandom(5), 0, 8, BIO, 1);
-		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.8, patternDir + 216 + irandom(5), 0, 8, BIO, 1);
-		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.8, patternDir + 288 + irandom(5), 0, 8, BIO, 1);
+		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.4, patternDir + irandom(5), 0, 8, BIO, 1);
+		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.4, patternDir + 72 + irandom(5), 0, 8, BIO, 1);
+		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.4, patternDir + 144 + irandom(5), 0, 8, BIO, 1);
+		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.4, patternDir + 216 + irandom(5), 0, 8, BIO, 1);
+		fire_bullet(bulletSpawnx, bulletSpawny, oMucusReturnBullet, 1.4, patternDir + 288 + irandom(5), 0, 8, BIO, 1);
 	} break;
 	
 	case 2:
