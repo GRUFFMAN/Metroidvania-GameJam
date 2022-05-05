@@ -1,0 +1,1 @@
+isCharging = 0
